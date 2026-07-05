@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Lambert W Copula Report</title>
+
+<style>
+
+body {
+
+    font-family: Arial;
+
+    margin:40px;
+
+    line-height:1.6;
+
+}
+
+h1{color:#003366;}
+
+h2{color:#005588;}
+
+table{
+border-collapse:collapse;
+width:70%;
+}
+
+td,th{
+border:1px solid #ccc;
+padding:8px;
+}
+
+th{
+background:#efefef;
+}
+
+img{
+width:700px;
+margin-top:15px;
+margin-bottom:30px;
+border:1px solid #ddd;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Lambert W Copula Analysis Report</h1>
+
+<h2>Model Summary</h2>
+
+<table>
+
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>theta</td><td>2.852059576378211</td></tr>
+<tr><td>loglik</td><td>1.4087376273349523</td></tr>
+<tr><td>std_error</td><td>1.6771783204786053</td></tr>
+<tr><td>variance</td><td>2.8129271186834353</td></tr>
+<tr><td>z_value</td><td>1.7005106383466355</td></tr>
+<tr><td>p_value</td><td>0.08903491706829603</td></tr>
+<tr><td>ci_lower</td><td>-0.435209931759855</td></tr>
+<tr><td>ci_upper</td><td>6.139329084516277</td></tr>
+<tr><td>aic</td><td>-0.8174752546699047</td></tr>
+<tr><td>bic</td><td>3.4516210290363567</td></tr>
+<tr><td>rmse</td><td>0.020486529061908027</td></tr>
+<tr><td>mae</td><td>0.016345735349566373</td></tr>
+<tr><td>maximum_error</td><td>0.05043628043706222</td></tr>
+<tr><td>cramer_von_mises</td><td>0.00041969787300440213</td></tr>
+<tr><td>kolmogorov_smirnov</td><td>0.05043628043706222</td></tr>
+<tr><td>bootstrap_mean</td><td>2.8901600197019697</td></tr>
+<tr><td>bootstrap_bias</td><td>0.038100443323758615</td></tr>
+<tr><td>bootstrap_variance</td><td>3.0270156238520554</td></tr>
+<tr><td>bootstrap_std_error</td><td>1.7398320677157482</td></tr>
+<tr><td>bootstrap_ci_lower</td><td>-0.9701295069388073</td></tr>
+<tr><td>bootstrap_ci_upper</td><td>6.0036380058555805</td></tr>
+<tr><td>cv_folds</td><td>5</td></tr>
+<tr><td>cv_repeats</td><td>20</td></tr>
+<tr><td>cv_theta_mean</td><td>2.8411253745044136</td></tr>
+<tr><td>cv_theta_median</td><td>2.9228668288424435</td></tr>
+<tr><td>cv_theta_sd</td><td>0.8738344021714767</td></tr>
+<tr><td>cv_theta_cv_percent</td><td>30.756629398092027</td></tr>
+<tr><td>cv_theta_min</td><td>0.2659493053186601</td></tr>
+<tr><td>cv_theta_max</td><td>4.6993134564542425</td></tr>
+<tr><td>cv_loglik_mean</td><td>1.232336023908194</td></tr>
+<tr><td>cv_loglik_sd</td><td>0.689761520938559</td></tr>
+<tr><td>best_model</td><td>Gaussian</td></tr>
+<tr><td>sample_size</td><td>528</td></tr>
+<tr><td>empirical_copula_0505</td><td>0.2481060606060606</td></tr>
+<tr><td>empirical_grid_size</td><td>100</td></tr>
+<tr><td>theoretical_grid_size</td><td>100</td></tr>
+</table><h2>Figures</h2>
+
+<h3>Raw Scatter</h3>
+
+<img src="../figures/raw_scatter.png">
+
+
+
+<h3>Pseudo Scatter</h3>
+
+<img src="../figures/pseudo_scatter.png">
+
+
+
+<h3>Empirical Heatmap</h3>
+
+<img src="../figures/empirical_heatmap.png">
+
+
+
+<h3>Empirical Contour</h3>
+
+<img src="../figures/empirical_contour.png">
+
+
+
+<h3>Empirical Surface</h3>
+
+<img src="../figures/empirical_surface.png">
+
+
+
+<h3>Theoretical Surface</h3>
+
+<img src="../figures/theoretical_surface.png">
+
+
+
+<h3>Bootstrap Histogram</h3>
+
+<img src="../figures/bootstrap_histogram.png">
+
+
+
+<h3>Bootstrap Boxplot</h3>
+
+<img src="../figures/bootstrap_boxplot.png">
+
+
+
+<h3>Cv Histogram</h3>
+
+<img src="../figures/cv_histogram.png">
+
+
+
+<h3>Cv Boxplot</h3>
+
+<img src="../figures/cv_boxplot.png">
+
+
+
+<h3>Likelihood Profile</h3>
+
+<img src="../figures/likelihood_profile.png">
+
+
+
+<h3>Residual Heatmap</h3>
+
+<img src="../figures/residual_heatmap.png">
+
+
+
+<h3>Residual Surface</h3>
+
+<img src="../figures/residual_surface.png">
+
+
+
+<hr>
+
+<p>
+
+Generated automatically by Lambert W Copula
+
+</p>
+
+</body>
+
+</html>
+
