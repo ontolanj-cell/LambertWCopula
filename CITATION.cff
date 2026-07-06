@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: "LambertWCopula"
+message: >
+  If you use this software in your research, please cite it using
+  the metadata below.
+
+type: software
+
+authors:
+  - family-names: Ontolan
+    given-names: Jay
+    email: ontolanj@cnu.edu.ph
+    affiliation: Cebu Normal University
+
+repository-code: "https://github.com/ontolanj-cell/LambertWCopula"
+
+url: "https://github.com/ontolanj-cell/LambertWCopula"
+
+version: "1.0.0"
+
+date-released: "2026-07-06"
+
+abstract: >
+  LambertWCopula is a Python package implementing the Lambert W Copula
+  for dependence modeling, maximum likelihood estimation, goodness-of-fit
+  diagnostics, bootstrap inference, cross-validation, visualization,
+  and automated reporting.
+
+keywords:
+  - Copula
+  - Lambert W
+  - Dependence Modeling
+  - Statistics
+  - Probability
+  - Maximum Likelihood
+  - Bootstrap
+  - Cross Validation
+
+license: Proprietary
