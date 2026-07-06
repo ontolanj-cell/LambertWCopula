@@ -1,5 +1,13 @@
 # LambertWCopula
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
+![Python](https://img.shields.io/badge/python-3.10%2B-green)
+
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+
+![Research](https://img.shields.io/badge/research-active-orange)
+
 A Python package for constructing, estimating, validating, and visualizing the **Lambert W Copula**, a novel copula family developed for flexible dependence modeling.
 
 ---
