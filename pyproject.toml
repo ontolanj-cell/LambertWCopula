@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lambertwcopula"
+version = "1.0.0"
+description = "A Python package for Lambert W Copula modeling, estimation, diagnostics, and model comparison."
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    {name = "Jay Ontolan", email = "ontolanj@cnu.edu.ph"}
+]
+
+license = {file = "LICENSE"}
+
+keywords = [
+    "copula",
+    "statistics",
+    "dependence",
+    "probability",
+    "lambert-w",
+    "maximum-likelihood",
+    "bootstrap",
+    "cross-validation"
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "sympy",
+    "jinja2",
+    "openpyxl"
+]
+
+[project.urls]
+Homepage = "https://github.com/ontolanj-cell/LambertWCopula"
+Repository = "https://github.com/ontolanj-cell/LambertWCopula"
+Issues = "https://github.com/ontolanj-cell/LambertWCopula/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["lambertwcopula*"]
