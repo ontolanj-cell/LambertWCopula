@@ -169,7 +169,14 @@ Citation information will be added after publication.
 
 ## Author
 
-Jay Ontolan
+## Authors
+
+- **Jay Ontolan**
+- **Joshua P. Rosell**
+- **Jeneveb T. Malusay**
+- **Joris N. Buloron**
+- **Vernard P. Dechosa**
+
 Cebu Normal University
 
 ---

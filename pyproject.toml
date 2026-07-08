@@ -10,7 +10,11 @@ readme = "README.md"
 requires-python = ">=3.10"
 
 authors = [
-    {name = "Jay Ontolan", email = "ontolanj@cnu.edu.ph"}
+    {name = "Jay Ontolan", email = "ontolanj@cnu.edu.ph"},
+    {name = "Joshua P. Rosell"},
+    {name = "Jeneveb T. Malusay"},
+    {name = "Joris N. Buloron"},
+    {name = "Vernard P. Dechosa"}
 ]
 
 license = {file = "LICENSE"}
